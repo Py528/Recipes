@@ -42,3 +42,13 @@ img{
     font-size: 24px;
     padding-right: 10px;
 }
+.Directions{
+    display: table;
+    color: white;
+    background-color: crimson;
+    padding-left: 10px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 24px;
+    padding-right: 10px;
+}
