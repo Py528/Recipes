@@ -1,0 +1,42 @@
+#header_block{
+    color: white;
+    background-color: lightseagreen;
+    padding: 10px 10px 10px 10px ;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.header_item{
+    height: auto;
+    width: 69px;
+    display:inline-block;
+    vertical-align:middle;
+    border-radius: 50px ; 
+}
+body{
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.Headline{
+    background-color: coral;
+    color: white;
+    border-radius: 12px;
+    padding-left: 10px;
+    font-size: 36px;
+}
+.Tagline{
+    background-color: rgb(249, 173, 173);
+    color: rgb(75, 68, 68);
+    font-size: large;
+    padding-left: 10px;
+    border-radius: 6px;
+}
+img{
+    border-radius: 7px;
+}
+.Ingredients{
+    color: white;
+    background-color: crimson;
+    padding-left: 10px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 24px;
+}

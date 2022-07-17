@@ -1,6 +1,5 @@
 body{
     font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    
 }
 #header_block{
     color: white;
@@ -63,6 +62,5 @@ body{
     width: 69px;
     display:inline-block;
     vertical-align:middle;
-    border-radius: 50px ;
-    
+    border-radius: 50px ; 
 }
