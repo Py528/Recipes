@@ -16,7 +16,7 @@ body{
     font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .Headline{
-    background-color: coral;
+    background-image: linear-gradient(to left, #553c9a 45%, #ee4b2b);
     color: white;
     border-radius: 12px;
     padding-left: 10px;
@@ -35,7 +35,7 @@ img{
 .Ingredients{
     display: table;
     color: white;
-    background-color: crimson;
+    background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb);
     padding-left: 10px;
     border-radius: 7px;
     font-weight: bold;
@@ -45,7 +45,7 @@ img{
 .Directions{
     display: table;
     color: white;
-    background-color: crimson;
+    background-image: conic-gradient(#553c9a, #ee4b2b, #b9f4f7);
     padding-left: 10px;
     border-radius: 7px;
     font-weight: bold;
