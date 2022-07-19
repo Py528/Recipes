@@ -17,36 +17,13 @@ body{
     font-weight: bold;
 }
 
-.Lasagna{
+.Lasagna,.Pasta,.Cookies,.Cake{
+    width: fit-content;
     color: white;
     background-color: orchid;
     padding: 10px 10px 10px 10px;
     border-radius: 4px;
-    text-align: center;
-    margin: 10px 10px 10px 10px;
-}
-.Pasta{
-    color: white;
-    background-color: orchid;
-    padding: 10px 10px 10px 10px;
-    border-radius: 4px;
-    text-align: center;
-    margin: 10px 10px 10px 10px;
-}
-.Cookies{
-    color: white;
-    background-color: orchid;
-    padding: 10px 10px 10px 10px;
-    border-radius: 4px;
-    text-align: center;
-    margin: 10px 10px 10px 10px;
-}
-.Cake{
-    color: white;
-    background-color: orchid;
-    padding: 10px 10px 10px 10px;
-    border-radius: 4px;
-    text-align: center;
+    text-align: left;
     margin: 10px 10px 10px 10px;
 }
 .RTP{
@@ -63,4 +40,10 @@ body{
     display:inline-block;
     vertical-align:middle;
     border-radius: 50px ; 
+}
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-shrink: 0;
 }
