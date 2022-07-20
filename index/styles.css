@@ -28,7 +28,8 @@ body{
 }
 .RTP{
     color: gray;
-    opacity: 50%;    
+    opacity: 50%;
+    font-weight: bold;    
 }
 .chef{
     border: 5px solid lightgrey;
