@@ -1,9 +1,24 @@
-.Flex-Container{
+.Flex-Container .first{
+    border: 2px solid blue;
+    padding: 16px;
+    background-color: lightblue;
     display: flex;
 }
-.Flex-Container div{
-    border: 2px red solid;
+.Flex-Container .first .one,.three,.two{
+    border: 4px solid salmon;
     background-color: peachpuff;
-    height: 100px;
+    height: 48px;
+    padding: 4px;
+    margin: 4px;
     flex: 1;
+}
+.two{
+    display: flex;
+} 
+.Flex-Container .first .two .inner-first{
+    border: 4px solid salmon;
+    background-color: peachpuff;
+    height: 48px;
+    padding: 4px;
+    margin: 4px;
 }
