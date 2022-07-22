@@ -1,0 +1,9 @@
+.Flex-Container{
+    display: flex;
+}
+.Flex-Container div{
+    border: 2px red solid;
+    background-color: peachpuff;
+    height: 100px;
+    flex: 1;
+}
