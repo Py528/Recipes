@@ -39,12 +39,12 @@
 }
 
 .flex-rectangles {
-    display: flex;
+  display: flex;
 }
-.rectangle.big{
-    flex-grow: 1;
+.rectangle.big {
+  flex-grow: 1;
 }
-.rectangles-divided{
-    flex-grow: 1;
-    gap: 2px;
+.rectangles-divided {
+  flex-grow: 1;
+  gap: 2px;
 }
