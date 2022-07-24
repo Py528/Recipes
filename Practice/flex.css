@@ -1,50 +1,50 @@
-.Flex-Container.inner{
-    border: 2px solid blue;
-    padding: 16px;
-    background-color: lightblue;
-    display: flex;
+.Flex-Container.inner {
+  border: 2px solid blue;
+  padding: 16px;
+  background-color: lightblue;
+  display: flex;
 }
-.Flex-Container .one, .three, .two{
-    display: flex;
-    border: 4px solid salmon;
-    background-color: peachpuff;
-    height: 48px;
-    padding: 4px;
-    margin: 4px;
-    flex: 1;
-}
-
-.Flex-Container.outmost{
-    border: 2px solid green;
-    padding: 16px;
-    background-color: lightgreen;
-
-}
-.inner-first, .inner-second{
-    display: flex;
-    border: 4px solid red;
-    background-color: lightpink;
-    height: auto;
-    padding: 2px;
-    margin: 2px;
-    flex: 1;
-}
-.flex-rectangles .rectangle{
-    padding: 4px;
-    margin: 4px;
-    border: 4px solid brown;
-    background-color: darksalmon;
-    height: 64px;
-    width: auto;
+.Flex-Container .one,
+.three,
+.two {
+  display: flex;
+  border: 4px solid salmon;
+  background-color: peachpuff;
+  height: 48px;
+  padding: 4px;
+  margin: 4px;
+  flex: 1;
 }
 
-.flex-rectangles{
-    margin: 10px;
+.Flex-Container.outmost {
+  border: 2px solid green;
+  padding: 16px;
+  background-color: lightgreen;
+}
+.inner-first,
+.inner-second {
+  display: flex;
+  border: 4px solid red;
+  background-color: lightpink;
+  height: auto;
+  padding: 2px;
+  margin: 2px;
+  flex: 1;
+}
+.flex-rectangles .rectangle {
+  padding: 4px;
+  margin: 8px;
+  border: 4px solid brown;
+  background-color: rgb(241, 172, 150);
+}
+
+.flex-rectangles {
     display: flex;
 }
-.rectangle .one{
-    flex: 1;
+.rectangle.big{
+    flex-grow: 1;
 }
-.rectangle .rectangles-divided{
-    flex: auto;
+.rectangles-divided{
+    flex-grow: 1;
+    gap: 2px;
 }
