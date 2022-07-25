@@ -3,6 +3,7 @@
   padding: 16px;
   background-color: lightblue;
   display: flex;
+  margin: 4px;
 }
 .Flex-Container .one,
 .three,
@@ -18,7 +19,7 @@
 
 .Flex-Container.outmost {
   border: 2px solid green;
-  padding: 16px;
+  padding: 8px;
   background-color: lightgreen;
 }
 .inner-first,
@@ -32,8 +33,7 @@
   flex: 1;
 }
 .flex-rectangles .rectangle {
-  padding: 4px;
-  margin: 8px;
+  margin: 4px;
   border: 4px solid brown;
   background-color: rgb(241, 172, 150);
 }
