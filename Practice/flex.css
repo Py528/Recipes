@@ -21,6 +21,8 @@
   border: 2px solid green;
   padding: 8px;
   background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
 }
 .inner-first,
 .inner-second {
@@ -75,4 +77,10 @@
     padding: 4px;
     margin: 2px;
     flex: 1;
+}
+
+@media(max-width: 600px ){
+  .Flex-Container.outmost{
+    flex-direction: row;
+  } 
 }
